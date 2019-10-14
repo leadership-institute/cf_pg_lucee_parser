@@ -4,7 +4,7 @@ This tool will recursively scan a directory for several strings specified as arg
 
 Installation
 ```
-npm i -g cf_pg_lucee_parser
+npm i -g cfvalidator
 ```
 
 Arguments
