@@ -1,11 +1,12 @@
 {
   "name": "cfvalidator",
-  "version": "1.0.0",
+  "version": "1.0.7",
   "description": "Recursively scan a ColdFusion project for Lucee-incomaptible code.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "preferGlobal": true,
   "author": "Nick Argyle (Leadership Institute)",
   "license": "MIT",
   "dependencies": {
@@ -18,7 +19,10 @@
     "yargs": "^14.2.0"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/leadership-institute/cf_pg_lucee_parser"
+    "type": "git",
+    "url": "https://github.com/leadership-institute/cf_pg_lucee_parser"
+  },
+  "bin": {
+    "cfvalidator": "index.js"
   }
 }

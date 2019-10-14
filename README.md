@@ -22,5 +22,5 @@ Options:
 
 Example
 ```
-node index.js --o out.csv --si --st --cff --gd --i ~/Workspaces/cf_home
+cfvalidator --o ~/.out.csv --si --st --cff --gd --i ~/Workspaces/cf_home
 ```
