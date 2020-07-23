@@ -2,16 +2,16 @@
 # yarn lockfile v1
 
 
-"@babel/runtime-corejs3@7.5.5":
-  version "7.5.5"
-  resolved "https://registry.yarnpkg.com/@babel/runtime-corejs3/-/runtime-corejs3-7.5.5.tgz#9744c03bdbef3091d277345bdd7131a29e67c957"
+"@babel/runtime-corejs3@7.7.4":
+  version "7.7.4"
+  resolved "https://registry.yarnpkg.com/@babel/runtime-corejs3/-/runtime-corejs3-7.7.4.tgz#f861adc1cecb9903dfd66ea97917f02ff8d79888"
   dependencies:
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.2"
 
-"@babel/runtime@7.5.5":
-  version "7.5.5"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.5.5.tgz#74fba56d35efbeca444091c7850ccd494fd2f132"
+"@babel/runtime@7.7.4":
+  version "7.7.4"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.7.4.tgz#b23a856751e4bf099262f867767889c0e3fe175b"
   dependencies:
     regenerator-runtime "^0.13.2"
 
@@ -99,10 +99,6 @@ iconv-lite@^0.5.0:
   dependencies:
     safer-buffer ">= 2.1.2 < 3"
 
-inherits@2.0.3:
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.3.tgz#633c2c83e3da42a502f52466022480f4208261de"
-
 is-fullwidth-code-point@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/is-fullwidth-code-point/-/is-fullwidth-code-point-2.0.0.tgz#a3b30a5c4f199183167aaab93beefae3ddfb654f"
@@ -145,29 +141,18 @@ pad@^3.2.0:
     wcwidth "^1.0.1"
 
 parse@^2.7.1:
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/parse/-/parse-2.7.1.tgz#863461679c056f2e5ff43d0ebf32ab0604e1ee58"
+  version "2.10.0"
+  resolved "https://registry.yarnpkg.com/parse/-/parse-2.10.0.tgz#7af2646885c01dcfb9bd434b6d3b5a1ef645b5ad"
   dependencies:
-    "@babel/runtime" "7.5.5"
-    "@babel/runtime-corejs3" "7.5.5"
+    "@babel/runtime" "7.7.4"
+    "@babel/runtime-corejs3" "7.7.4"
     uuid "3.3.3"
-    ws "7.1.2"
+    ws "7.2.0"
     xmlhttprequest "1.8.0"
 
 path-exists@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/path-exists/-/path-exists-3.0.0.tgz#ce0ebeaa5f78cb18925ea7d810d7b59b010fd515"
-
-path@^0.12.7:
-  version "0.12.7"
-  resolved "https://registry.yarnpkg.com/path/-/path-0.12.7.tgz#d4dc2a506c4ce2197eb481ebfcd5b36c0140b10f"
-  dependencies:
-    process "^0.11.1"
-    util "^0.10.3"
-
-process@^0.11.1:
-  version "0.11.10"
-  resolved "https://registry.yarnpkg.com/process/-/process-0.11.10.tgz#7332300e840161bda3e69a1d1d91a7d4bc16f182"
 
 regenerator-runtime@^0.13.2:
   version "0.13.3"
@@ -203,12 +188,6 @@ strip-ansi@^5.0.0, strip-ansi@^5.1.0, strip-ansi@^5.2.0:
   dependencies:
     ansi-regex "^4.1.0"
 
-util@^0.10.3:
-  version "0.10.4"
-  resolved "https://registry.yarnpkg.com/util/-/util-0.10.4.tgz#3aa0125bfe668a4672de58857d3ace27ecb76901"
-  dependencies:
-    inherits "2.0.3"
-
 uuid@3.3.3:
   version "3.3.3"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.3.tgz#4568f0216e78760ee1dbf3a4d2cf53e224112866"
@@ -231,9 +210,9 @@ wrap-ansi@^5.1.0:
     string-width "^3.0.0"
     strip-ansi "^5.0.0"
 
-ws@7.1.2:
-  version "7.1.2"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-7.1.2.tgz#c672d1629de8bb27a9699eb599be47aeeedd8f73"
+ws@7.2.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-7.2.0.tgz#422eda8c02a4b5dba7744ba66eebbd84bcef0ec7"
   dependencies:
     async-limiter "^1.0.0"
 
